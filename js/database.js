@@ -61,4 +61,44 @@ const data = [
     addCart: "Adicionar ao carrinho",
     tag: ["Camisetas"],
   },
+  {
+    id: 7,
+    img: "https://img.ltwebstatic.com/images3_pi/2019/12/04/1575456506ff76ccaa4ac5ea12c3396865f3f74f63_thumbnail_600x.webp",
+    nameItem: "Relógio masculino de quartzo",
+    description:
+      "Relógio masculino de quartzo com pulseira de malha minimalista...",
+    value: 100,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Acessórios"],
+  },
+  {
+    id: 8,
+    img: "https://img.ltwebstatic.com/images3_pi/2021/04/06/16176945521edf839dcbdfaf609fce43e7385ad368_thumbnail_600x.webp",
+    nameItem: "Sapatos de skate listrado",
+    description:
+      "Tenis confortavel e elegante. Combina com qualquer roupa e ambiente...",
+    value: 100,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Calçados"],
+  },
+  {
+    id: 9,
+    img: "../img/airmax.png",
+    nameItem: "Tenis Orlando",
+    description:
+      "Homens Calçados de skatistas Dois tons Frente com cadarco...",
+    value: 100,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Calçados"],
+  },
+  {
+    id: 10,
+    img: "../img/jordan.png",
+    nameItem: "Air Jordan",
+    description:
+      "Nike Air Max, Tênis, Air Jordan...",
+    value: 100,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Calçados"],
+  },
 ];

@@ -7,12 +7,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/favicon.jpeg">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
     <title>Projeto E-commerce</title>
 </head>
 
 <body>
+    <header>
+        <div class="container">
+            <div class="div_logo">
+                <h1>GabeStore</h1>
+            </div>
 
 
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#" id="todos" class="">Todos</a></li>
+                    <li><a href="#" id="Acessórios" class="">Acessórios</a></li>
+                    <li><a href="#" id="Calçados" class="">Calçados</a></li>
+                    <li><a href="#" id="Camisetas" class="">Camisetas</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main class="container2">
+        <section class="vitrineAll">
+        </section>
+        <section class="vitrineAcessórios hidden">
+        </section>
+        <section class="vitrineCalçados hidden">
+        </section>
+        <section class="vitrineCamisetas hidden">
+        </section>
+        <section class="vitrineIndividual hidden">
+        </section>
+
+        <div class="aoLado">
+            <div class="div_pesquisa">
+                <input class="caixaPesquisa" placeholder="Digite aqui sua pesquisa">
+                <button class="botaoPesquisa">Pesquisar</button>
+            </div>
+            <div class="div_compras">
+                <span class="carrinho">Carrinho de compras</span>
+
+            </div>
+            <div class="div_vazio hidden">
+                <h1 class="vazio">Carrinho vazio</h1>
+                <span class="subtext">Adicione itens</span>
+            </div>
+            <div class="compras">
+                <div class="produtos">
+                    <ul class="listaProdutos">
+                        <li class="card_produtos">
+                            <div class="div_imagem_compras">
+                                <img class="img_imagem_compras" src="../img/jaqueta.svg" alt="Champion Packable Jacket">
+                            </div>
+                            <div class="compraDescricao">
+                                <h1 class="tituloDescricao">Lightweight Jacket
+
+                                </h1>
+                                <span class="valorCompra">R$ 100.00
+                                </span>
+                                <button class="compraRemover">Remover Produto</button>
+                            </div>
+                        </li>
+                        <li class="card_produtos">
+                            <div class="div_imagem_compras">
+                                <img class="img_imagem_compras" src="../img/gorro.svg" alt="Black Hat">
+                            </div>
+                            <div class="compraDescricao">
+                                <h1 class="tituloDescricao">Black Hat
+                                </h1>
+                                <span class="valorCompra">R$ 100.00
+                                </span>
+                                <button class="compraRemover">Remover Produto</button>
+                            </div>
+                        </li>
+
+                        <li class="card_produtos">
+                            <div class="div_imagem_compras">
+                                <img class="img_imagem_compras" src="../img/moletom.svg" alt="Champion Packable Jacket">
+                            </div>
+                            <div class="compraDescricao">
+                                <h1 class="tituloDescricao">Champion Packable Jacket
+                                </h1>
+                                <span class="valorCompra">R$ 100.00
+                                </span>
+                                <button class="compraRemover">Remover Produto</button>
+                            </div>
+                        </li>
+                        <li class="card_produtos">
+                            <div class="div_imagem_compras">
+                                <img class="img_imagem_compras" src="../img/mascara.svg" alt="Mask">
+                            </div>
+                            <div class="compraDescricao">
+                                <h1 class="tituloDescricao">Mask
+                                </h1>
+                                <span class="valorCompra">R$ 40.00
+                                </span>
+                                <button class="compraRemover">Remover Produto</button>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="resultado">
+                    <span class="quantidade">Quantidade:</span>
+                    <span class="numeroQuantidade">03</span>
+                    <span class="compraTotal">Total</span>
+                    <span class="numeroTotal">R$ 300.00</span>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
 
     <script src="/js/database.js"></script>
     <script src="/js/index.js"></script>
