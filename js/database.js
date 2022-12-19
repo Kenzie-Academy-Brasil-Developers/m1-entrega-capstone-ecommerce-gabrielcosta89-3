@@ -101,4 +101,14 @@ const data = [
     addCart: "Adicionar ao carrinho",
     tag: ["Calçados"],
   },
+  {
+    id: 10,
+  img: "../img/jordan.png",
+  nameItem: "Air frier",
+  description:
+    "sapato",
+  value: 300,
+  addCart: "Adicionar ao carrinho",
+  tag: ["Calçados"],
+},
 ];

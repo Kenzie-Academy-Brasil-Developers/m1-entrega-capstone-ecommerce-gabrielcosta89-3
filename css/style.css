@@ -1,7 +1,25 @@
 header {
 
     box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
 
+}
+main{
+    max-width:1200px;
+    margin:0 auto;
+}
+.atras {
+    height: 58px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+:root {
+    --primary-color:#37268C;
+    --secondary-color:#2E245E;
 }
 
 .container {
@@ -58,31 +76,32 @@ header {
 
 #todos:hover {
     text-decoration: underline;
-    color: #37268C;
+    color: var(--primary-color);
 }
 
 #Acessórios:hover {
     text-decoration: underline;
-    color: #37268C;
+    color: var(--primary-color);
 }
 
 #Calçados:hover {
     text-decoration: underline;
-    color: #37268C;
+    color: var(--primary-color);
 }
 
 #Camisetas:hover {
     text-decoration: underline;
-    color: #37268C;
+    color: var(--primary-color);
 }
+
 
 .container2 {
 
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
-    margin-top: 40px;
-    height: 1000px;
+    margin-top: 0px;
+    height: 100%;
     display: flex;
 
 }
@@ -92,7 +111,6 @@ header {
 
 .vitrineAll ul {
     width: 800px;
-    ;
     display: flex;
     flex-wrap: wrap;
 }
@@ -144,7 +162,7 @@ header {
 }
 
 .card:hover {
-    border: solid 1px #37268C;
+    border: solid 1px var(--primary-color);
     margin-right: 14px;
     cursor: pointer;
 }
@@ -177,7 +195,7 @@ header {
 
 .tipo {
     display: inline-block;
-    background-color: #2E245E;
+    background-color: var(--secondary-color);
     color: #F5F5F5;
     margin-left: 5px;
     font-size: 14px;
@@ -212,7 +230,7 @@ header {
 
     display: block;
     margin-left: 5px;
-    color: #37268C;
+    color: var(--primary-color);
     font-weight: 400px;
     margin-bottom: 20px;
 }
@@ -226,7 +244,7 @@ header {
 
 .adicionar:hover {
     text-decoration: underline;
-    color: #37268C;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -235,11 +253,16 @@ header {
 }
 
 .aoLado {
+    background-color: white;
     width: 349px;
-    height: 550px;
-
+    height: 547px;
+    position: sticky;
+    top:100px;
+    right:500px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 851px;
+
+
 }
 
 .div_pesquisa {
@@ -261,7 +284,7 @@ header {
 }
 
 .botaoPesquisa {
-    background-color: #2E245E;
+    background-color: var(--secondary-color);
     color: #F5F5F5;
     border: none;
     padding: 10px;
@@ -273,22 +296,22 @@ header {
 
 .botaoPesquisa:hover {
     cursor: pointer;
-    background-color: #37268C;
+    background-color: var(--primary-color);
     box-sizing: border-box;
 }
 
 .div_compras {
-    background-color: blue;
     width: 349px;
     height: 41px;
     margin-top: 20px;
+    position:sticky;
 
 }
 
 .carrinho {
     width: 349px;
     color: #F5F5F5;
-    background-color: #37268C;
+    background-color: var(--primary-color);
     font-size: 16px;
     display: block;
     text-align: center;
@@ -395,7 +418,7 @@ header {
 .valorCompra {
     margin-left: 7px;
     display: block;
-    color: #37268C;
+    color: var(--primary-color);
     font-weight: 400px;
     font-size: 14px;
     margin-top: 20px;
@@ -449,4 +472,39 @@ header {
     color: #F5F5F5;
     display: inline-block;
     margin-left: 180px;
+}
+
+footer {
+
+    width: 100%;
+    background-color: white;
+}
+
+.div_rodape {
+
+    background-color: var(--secondary-color);
+    margin-top: 200px;
+    max-width: 1200px;
+    margin: 10px auto 0px auto;
+    height: 1000px;
+}
+
+.rodape_cima {
+    width: 1200px;
+    height: 70px;
+    background-color: var(--primary-color);
+    bottom: 0px;
+}
+
+.rodape_medio {
+    width: 1200px;
+    height: 200px;
+    background-color: var(--secondary-color);
+
+}
+
+.rodape_baixo {
+    width: 20000;
+    height: 40px;
+    background-color: #333333;
 }
